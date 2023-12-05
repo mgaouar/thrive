@@ -1,0 +1,49 @@
+/* @theme thrive */
+
+@import 'default';
+
+:root {
+    --grey-heading: #2e2e2e;
+    --thrive-purple-primary: #674263;
+    --thrive-grey-text: #545454;
+    --thrive-dark-2: #3d273b;
+    --thrive-tint-3: #947a91;
+    --thrive-yellow-primary: #efbe29;
+    --thrive-dark-1: #52344f;
+    --thrive-tint-1: #765472;
+    --thrive-tint-2: #856782;
+    --thrive-tint-3-4: #f3d169;
+    --black: black;
+    --green-primary: #53cbab;
+    --blue-primary: #8cd7e4;
+    --gallagher-primary: #6facde;
+    --mariner: #2378c3;
+    --sunburnt-orange: #e96b56;
+    --sq-background: rgba(225,225,225,.08);
+    --blue-ribbon: #0d6efd;
+}
+
+section {
+    background-color: #fff;
+    color: var(--grey-heading);
+    font-family: Inter,sans-serif;
+}
+h1 {
+    color: var(--thrive-purple-primary);
+}
+section > header {
+    font-size: xx-large;
+    max-height: 100px;
+    overflow: hidden;
+}
+section > header #logo {
+    float: right;
+    width: 20%;
+    margin-top: -35px;
+}
+
+section > header #title {
+    color: rgb(103,66,99);
+    float: left;
+    width: 80%;
+}
